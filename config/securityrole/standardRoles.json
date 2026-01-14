@@ -1,5 +1,4 @@
 [{
-    "_id":  "692709c8054eae05eb378a6c" ,
     "name": "ROLE_FORENSICS_ANALYST",
     "tenant": "cisco",
     "urls": [
@@ -17,7 +16,6 @@
     "description": "Conducts forensic analysis, evidence handling, and detailed log review."
   },
   {
-    "_id":  "69270ab5054eae05eb378a71" ,
     "name": "ROLE_DASHBOARD_REPORT_AUTHOR",
     "tenant": "cisco",
     "urls": [
@@ -37,7 +35,6 @@
     "description": "Creates and edits dashboards, visualizations, and scheduled reports."
   },
   {
-    "_id":  "69270a95054eae05eb378a70" ,
     "name": "ROLE_INTEGRATION_ENGINEER",
     "tenant": "cisco",
     "urls": [
@@ -54,7 +51,6 @@
     "description": "Manages integrations, APIs, collectors, and external system connectors."
   },
   {
-    "_id":  "69270a67054eae05eb378a6f" ,
     "name": "ROLE_READ_ONLY_USER",
     "tenant": "cisco",
     "urls": [
@@ -74,7 +70,6 @@
     "description": "Can view dashboards, alerts, and reports but cannot modify anything."
   },
   {
-    "_id":  "69270a24054eae05eb378a6e" ,
     "name": "ROLE_AUDIT_VIEWER",
     "tenant": "cisco",
     "urls": [
@@ -91,7 +86,6 @@
     "description": "Can only view logs and audit trails without making any system changes."
   },
   {
-    "_id":  "692709fe054eae05eb378a6d" ,
     "name": "ROLE_COMPLIANCE_OFFICER",
     "tenant": "cisco",
     "urls": [
@@ -110,7 +104,6 @@
     "description": "Ensures regulatory compliance, reporting, log retention, and audits."
   },
   {
-    "_id":  "692709a4054eae05eb378a6b" ,
     "name": "ROLE_INCIDENT_RESPONDER",
     "tenant": "cisco",
     "urls": [
@@ -128,7 +121,6 @@
     "description": "Handles containment, remediation, and incident response actions."
   },
   {
-    "_id":  "6927098f054eae05eb378a6a" ,
     "name": "ROLE_SECURITY_ANALYST_TIER_3",
     "tenant": "cisco",
     "urls": [
@@ -150,7 +142,6 @@
     "description": "Performs advanced analysis, threat hunting, and complex investigations."
   },
   {
-    "_id":  "69270961054eae05eb378a69" ,
     "name": "ROLE_SECURITY_ANALYST_TIER_2",
     "tenant": "cisco",
     "urls": [
@@ -169,7 +160,6 @@
     "description": "Conducts deeper investigations, correlates events, enriches alerts."
   },
   {
-    "_id":  "692708d6054eae05eb378a67" ,
     "name": "ROLE_SECURITY_ANALYST_TIER_1",
     "tenant": "cisco",
     "urls": [
@@ -190,7 +180,6 @@
     "description": "Monitors alerts, performs initial triage and basic investigation."
   },
   {
-    "_id":  "69270898054eae05eb378a64" ,
     "name": "ROLE_THREAT_CONTENT_ENGINEER",
     "tenant": "cisco",
     "urls": [
@@ -213,7 +202,6 @@
     "description": "Builds and maintains detection rules, parsers, threat intel logic, and use cases."
   },
   {
-    "_id":  "692707db054eae05eb378a63" ,
     "name": "ROLE_SOC_MANAGER",
     "tenant": "cisco",
     "urls": [
@@ -556,7 +544,6 @@
     "description": "Oversees SOC operations, analyst activities, workflows, and escalation."
   },
   {
-    "_id":  "6927079e054eae05eb378a62" ,
     "name": "ROLE_SIEM_ADMINISTRATOR",
     "tenant": "cisco",
     "urls": [
