@@ -1,0 +1,18 @@
+[
+  {
+    "database": "EVT_ATT_399",
+    "java": "java.lang.boolean",
+    "updatedon": 0,
+    "updatedby": "binary-flux",
+    "description": "test-description-1",
+    "reserved": "test-reserved-1" 
+  },
+  {
+    "database": "EVT_ATT_400",
+    "java": "java.lang.boolean",
+    "updatedon": 0,
+    "updatedby": "binary-flux",
+    "description": "test-description-2",
+    "reserved": "test-reserved-2"
+  }
+]
