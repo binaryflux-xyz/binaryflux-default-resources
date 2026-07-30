@@ -1,0 +1,692 @@
+[
+    {
+        "database": "EVT_ATT_1",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Timestamp of the event occurrence",
+        "reserved": "timestamp",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_83",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Tenant identifier in multi-tenant systems",
+        "reserved": "tenant",
+        "indexed": false,
+        "fieldcategory": "cloud"
+    },
+    {
+        "database": "EVT_ATT_90",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Unique identifier for the event stream",
+        "reserved": "streamid",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_156",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Group the source belongs to",
+        "reserved": "group",
+        "indexed": false,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_157",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Identifier for the database",
+        "reserved": "streamname",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_158",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Source service/system providing the data",
+        "reserved": "provider",
+        "indexed": true,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_159",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "This field will store type of logs",
+        "reserved": "type",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_160",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Identifier for the message/log entry",
+        "reserved": "messageid",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_216",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Unique session or connection ID",
+        "reserved": "session_id",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_228",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Raw event/log messageRaw event/log message",
+        "reserved": "message",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_275",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Log collector/agent that captured the event",
+        "reserved": "collector",
+        "indexed": false,
+        "fieldcategory": "device"
+    },
+    {
+        "database": "EVT_ATT_8",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Time when the event was received from the source",
+        "reserved": "eventreceivedtime",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_227",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Source IP address",
+        "reserved": "source_ip",
+        "indexed": true,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_224",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Destination IP Address",
+        "reserved": "destination_ip",
+        "indexed": true,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_82",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Port number of the source",
+        "reserved": "source_port",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_84",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Port number of the destination",
+        "reserved": "destination_port",
+        "indexed": true,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_81",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Unique identifier for the event",
+        "reserved": "event_id",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_80",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Unique identifier for the event",
+        "reserved": "event_id",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_104",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Primary category or type of the log",
+        "reserved": "log_type",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_105",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Specific subtype of the log",
+        "reserved": "log_subtype",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_106",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Defines the specific log category under the main log type (e.g., forward for traffic logs, app-ctrl for application control, local for device events)",
+        "reserved": "event_action",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_107",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Country of origin for the source",
+        "reserved": "source_country",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_113",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Specifies the country associated with the destination IP address",
+        "reserved": "destination_country",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_119",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Captures the full web address or resource path accessed during the event",
+        "reserved": "url",
+        "indexed": false,
+        "fieldcategory": "web"
+    },
+    {
+        "database": "EVT_ATT_119",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Describes the specific log activity or event type generated by the device",
+        "reserved": "event",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_130",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Mnemonic or specific code for the event",
+        "reserved": "event_code",
+        "indexed": false,
+        "fieldcategory": "No category"
+    },
+    {
+        "database": "EVT_ATT_144",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Additional event information (structured/unstructured payload)",
+        "reserved": "event_details",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_188",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Category classification of the event",
+        "reserved": "event_category",
+        "indexed": true,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_153",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Severity level of the event",
+        "reserved": "event_severity",
+        "indexed": false,
+        "fieldcategory": "security"
+    },
+    {
+        "database": "EVT_ATT_129",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Current status of the event",
+        "reserved": "event_status",
+        "indexed": false,
+        "fieldcategory": "security"
+    },
+    {
+        "database": "EVT_ATT_126",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Indicates whether the event triggered a security alert",
+        "reserved": "event_alert",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_80",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Specific numeric code identifying the event category (e.g., traffic, system, or security)",
+        "reserved": "event_category_id",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_121",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Describes the broader functional or domain category of the event",
+        "reserved": "event_category_desc",
+        "indexed": false,
+        "fieldcategory": "config"
+    },
+    {
+        "database": "EVT_ATT_237",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Normalized event category",
+        "reserved": "event_type",
+        "indexed": true,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_236",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "More specific event type",
+        "reserved": "event_subtype",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_123",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Name of the user associated with the event",
+        "reserved": "user_name",
+        "indexed": true,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_124",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Unique identifier associated with the user",
+        "reserved": "user_id",
+        "indexed": false,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_193",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Source user performing action",
+        "reserved": "source_account_name",
+        "indexed": false,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_195",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Name of the target account",
+        "reserved": "destination_account_name",
+        "indexed": true,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_277",
+        "java": "java.lang.array",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "The set of permissions or rights granted to a user or system, defining what actions or resources they are allowed to access or modify",
+        "reserved": "privileges",
+        "indexed": false,
+        "fieldcategory": "security"
+    },
+    {
+        "database": "EVT_ATT_201",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Captures the email address of the user",
+        "reserved": "user_email",
+        "indexed": false,
+        "fieldcategory": "email"
+    },
+    {
+        "database": "EVT_ATT_189",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Hostname or computer name where the event occurred",
+        "reserved": "host",
+        "indexed": true,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_167",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Domain to which the host belongs.",
+        "reserved": "host_domain",
+        "indexed": true,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_125",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Actual command executed by the process",
+        "reserved": "process_command",
+        "indexed": false,
+        "fieldcategory": "security"
+    },
+    {
+        "database": "EVT_ATT_132",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Command line arguments specifying what action a process executed",
+        "reserved": "command_line",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_133",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Name of the parent process that spawned the current process",
+        "reserved": "parent_process_name",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_207",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Hash of executable",
+        "reserved": "process_hash",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_208",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Full process path",
+        "reserved": "process_path",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_210",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Process executable name",
+        "reserved": "process_name",
+        "indexed": false,
+        "fieldcategory": "security"
+    },
+    {
+        "database": "EVT_ATT_209",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Identifier of the process",
+        "reserved": "process_id",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_210",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Full path to the executable file",
+        "reserved": "process_path",
+        "indexed": false,
+        "fieldcategory": "endpoint"
+    },
+    {
+        "database": "EVT_ATT_127",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "The size of the file in bytes at the time the event was recorded.",
+        "reserved": "file_size",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "EVT_ATT_177",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Actual file format or content type identified for the file.",
+        "reserved": "file_type",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "EVT_ATT_203",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Extension of the associated file",
+        "reserved": "file_extension",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "EVT_ATT_204",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "SHA256 or MD5 hash of file",
+        "reserved": "file_hash",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "EVT_ATT_205",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Full file path",
+        "reserved": "file_path",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "EVT_ATT_206",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "File name involved",
+        "reserved": "file_name",
+        "indexed": false,
+        "fieldcategory": "file"
+    },
+    {
+        "database": "text_fields",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Name of the source device",
+        "reserved": "source_device_name",
+        "indexed": true,
+        "fieldcategory": "device"
+    },
+    {
+        "database": "EVT_ATT_4",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Number of incoming network bytes",
+        "reserved": "network_bytes_in",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_5",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Number of incoming network packets",
+        "reserved": "network_packets_in",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_6",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Number of outgoing network bytes",
+        "reserved": "network_bytes_out",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_7",
+        "java": "java.lang.long",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Number of outgoing network packets",
+        "reserved": "network_packets_out",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_89",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Current status of the network connection",
+        "reserved": "network_status",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_197",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Type of login (interactive, network, etc.)",
+        "reserved": "logon_type",
+        "indexed": false,
+        "fieldcategory": "authentication"
+    },
+    {
+        "database": "EVT_ATT_219",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Network protocol used in the communication",
+        "reserved": "network_protocol",
+        "indexed": false,
+        "fieldcategory": "network"
+    },
+    {
+        "database": "EVT_ATT_97",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Represents the unique identifier of the firewall policy that matched and governed the traffic",
+        "reserved": "policy_id",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_122",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Interface or terminal used for executing the command",
+        "reserved": "terminal",
+        "indexed": false,
+        "fieldcategory": "application"
+    },
+    {
+        "database": "EVT_ATT_152",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Identifier for Linux audit events used to extract grouped events",
+        "reserved": "audit_id",
+        "indexed": false,
+        "fieldcategory": "identity"
+    },
+    {
+        "database": "EVT_ATT_154",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Name or identifier of the source workstation",
+        "reserved": "source_workstation",
+        "indexed": false,
+        "fieldcategory": "device"
+    }
+]
