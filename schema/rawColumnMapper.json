@@ -391,7 +391,7 @@
     },
     {
         "database": "EVT_ATT_277",
-        "java": "java.lang.array",
+        "java": "java.util.arraylist",
         "updatedon": 0,
         "updatedby": "binary-flux",
         "description": "The set of permissions or rights granted to a user or system, defining what actions or resources they are allowed to access or modify",
