@@ -952,5 +952,14 @@
         "description": "Name or identifier of the source workstation",
         "reserved": "source_workstation",
         "fieldcategory": "device"
+    },
+    {
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Risk or confidence score assigned to the detection",
+        "reserved": "score",
+        "database": "EVT_ATT_17",
+        "java": "java.lang.double",
+        "fieldcategory": "security"
     }
 ]
