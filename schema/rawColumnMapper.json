@@ -690,7 +690,7 @@
         "fieldcategory": "device"
     },
     {
-        "database": "text_fields",
+        "database": "EVT_ATT_169",
         "java": "java.lang.string",
         "updatedon": 0,
         "updatedby": "binary-flux",
