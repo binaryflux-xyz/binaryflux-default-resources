@@ -688,5 +688,15 @@
         "reserved": "source_workstation",
         "indexed": false,
         "fieldcategory": "device"
+    },
+    {
+        "database": "text_fields",
+        "java": "java.lang.string",
+        "updatedon": 0,
+        "updatedby": "binary-flux",
+        "description": "Identification of jumpserver",
+        "reserved": "jumpserver",
+        "indexed": false,
+        "fieldcategory": "endpoint"
     }
 ]
