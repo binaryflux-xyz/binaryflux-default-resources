@@ -1,0 +1,8 @@
+{
+    "name": "MitreTechniques",
+    "description": "Provides detailed information on MITRE techniques along with their descriptions, facilitating advanced threat intelligence analysis",
+    "optiontype": "url",
+    "optionvalue": "s3://lookups/mitre/mitre_tactics_and_techniques.csv",
+    "refreshrate": "60",
+    "expirydate": "2027-08-11 07:00 PM"
+}

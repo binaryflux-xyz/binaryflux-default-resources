@@ -1,0 +1,8 @@
+{
+    "name": "EventAttributesSchema",
+    "description": "Schema representing all event attributes such as agent, host, and network fields, supporting detection and correlation",
+    "optiontype": "url",
+    "optionvalue": "s3://lookups/schema/schema_fields_minimal.csv",
+    "refreshrate": "60",
+    "expirydate": "2027-08-11 07:00 PM"
+}

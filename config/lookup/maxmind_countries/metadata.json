@@ -1,0 +1,8 @@
+{
+    "name": "Maxmindcountries",
+    "description": "Provides geolocation countries data using Maxmind’s processed GeoLite2-Country-Locations data",
+    "optiontype": "url",
+    "optionvalue": "s3://lookups/maxmind/GeoLite2-Country-Locations-en.csv",
+    "refreshrate": "60",
+    "expirydate": "2027-08-11 07:00 PM"
+}

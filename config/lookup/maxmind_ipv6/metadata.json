@@ -1,0 +1,8 @@
+{
+    "name": "Maxmindipv6",
+    "description": "Provides geolocation information for IPv6 addresses using Maxmind’s processed GeoLite2-Country-Blocks data",
+    "optiontype": "url",
+    "optionvalue": "s3://lookups/maxmind/GeoLite2-Country-Blocks-IPv6-processed.csv",
+    "refreshrate": "60",
+    "expirydate": "2027-08-11 07:00 PM"
+}
