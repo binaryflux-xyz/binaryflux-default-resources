@@ -860,7 +860,7 @@
         "description": "The size of the file in bytes at the time the event was recorded.",
         "database": "EVT_ATT_202",
         "reserved": "file_size",
-        "java": "java.lang.string",
+        "java": "java.lang.long",
         "fieldcategory": "file"
     },
     {
