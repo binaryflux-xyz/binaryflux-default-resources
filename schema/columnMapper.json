@@ -14,7 +14,7 @@
         "description": "Risk or confidence score assigned to the detection",
         "reserved": "score",
         "database": "EVT_ATT_17",
-        "java": "java.lang.int",
+        "java": "java.lang.integer",
         "fieldcategory": "security"
     },
     {
@@ -338,7 +338,7 @@
         "description": "Severity or importance level of the event (e.g., info, warning, critical)",
         "database": "EVT_ATT_28",
         "reserved": "event_level",
-        "java": "java.lang.int",
+        "java": "java.lang.integer",
         "fieldcategory": "security"
     },
     {
@@ -347,7 +347,7 @@
         "description": "Port number of the source",
         "database": "EVT_ATT_29",
         "reserved": "source_port",
-        "java": "java.lang.int",
+        "java": "java.lang.integer",
         "fieldcategory": "network"
     },
     {
@@ -356,7 +356,7 @@
         "description": "Port number of the destination",
         "database": "EVT_ATT_30",
         "reserved": "destination_port",
-        "java": "java.lang.int",
+        "java": "java.lang.integer",
         "fieldcategory": "network"
     },
     {
