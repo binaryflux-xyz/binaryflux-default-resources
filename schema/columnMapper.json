@@ -194,7 +194,7 @@
         "description": "Groupings of UEBA clusters",
         "reserved": "clusters",
         "database": "EVT_ATT_297",
-        "java": "java.lang.array",
+        "java": "java.util.arraylist",
         "fieldcategory": "application"
     },
     {
@@ -203,7 +203,7 @@
         "description": "Tags associated with the detection",
         "reserved": "tags",
         "database": "EVT_ATT_311",
-        "java": "java.lang.array",
+        "java": "java.util.arraylist",
         "fieldcategory": "config"
     },
     {
