@@ -1,0 +1,10 @@
+[{
+    "name": "DICTIONARY_ALERT_RECEIVER",
+    "tenant": "cisco",
+    "customer": "tcs",
+    "updatedon":  "0",
+    "createdon":  "0",
+    "createdby": "binary-flux",
+    "updatedby": "binary-flux",
+    "description": "Members of this group will receives a new event email notification alert if enabled"
+  }]
